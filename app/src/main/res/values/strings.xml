@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">StaticAlertButton</string>
+    <string-array name="checkbox">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+    <string-array name="radio">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

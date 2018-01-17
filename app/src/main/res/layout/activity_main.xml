@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:overScrollMode="always"
+    android:background="@drawable/u"
+    android:layout_height="match_parent"
+    tools:context="com.example.jatinderkumar.staticalertbutton.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_height="wrap_content">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="30sp"
+
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="200sp">
+            <ImageView
+                android:layout_width="200sp"
+                android:src="@drawable/eev"
+                android:layout_height="200sp" />
+            <ImageView
+                android:layout_width="200sp"
+                android:src="@drawable/u"
+                android:layout_height="200sp" />
+            <ImageView
+                android:layout_width="200sp"
+                android:src="@drawable/js"
+                android:layout_height="200sp" />
+            <ImageView
+                android:layout_width="200sp"
+                android:src="@drawable/img1"
+                android:layout_height="200sp" />
+            <ImageView
+                android:layout_width="200sp"
+                android:src="@drawable/img2"
+                android:layout_height="200sp" />
+            <ImageView
+                android:layout_width="200sp"
+                android:src="@drawable/img3"
+                android:layout_height="200sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="200sp"
+        android:layout_marginTop="30sp"
+        android:src="@drawable/js"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="200sp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click On"
+        android:background="@color/colorPrimary"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="322dp" />
+    </LinearLayout>
+</ScrollView>
+
+
